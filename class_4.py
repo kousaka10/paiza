@@ -41,7 +41,7 @@ class mates(mate):
             self.data[bango][0] = self.c[i][1]
         return self.data
 
-    def make_meibo(self, row_name="None"):
+    def make_meibo(self, row_name="None"): #結局使わず、なんでや
         self.row_name = str(row_name)
         if self.row_name != "None":
             self.narabel(self.row_name)
